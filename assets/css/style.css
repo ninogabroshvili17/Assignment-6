@@ -1,0 +1,423 @@
+@font-face {
+    font-family: Cinzel400;
+    src: url(/assets/fonts/Cinzel-Regular.ttf);
+}
+@font-face {
+    font-family: Cinzel700;
+    src: url(/assets/fonts/Cinzel-Bold.ttf);
+}
+@font-face {
+    font-family: OpenSans400;
+    src: url(/assets/fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: OpenSans600;
+    src: url(/assets/fonts/OpenSans-SemiBold.ttf);
+}
+
+.header-border{
+    border: 1xp solid black;
+    background-color: #F5EFEF;
+    width: 100%;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-right{
+    display: flex;
+    margin-right: 100px;
+}
+.header-list{
+    display: flex;
+    list-style: none;
+}
+.logo{
+    margin-left: 100px;
+}
+.list-item{
+    font-family: Cinzel400;
+    font-size: 16px;
+    color: #3F3232;
+    margin-right: 48px;
+}
+.list-item:active{
+    color: white;
+}
+.container{
+    padding: 0 100px;
+}
+.products{
+    display: flex;
+    justify-content: space-between;
+}
+.sales-title{
+    font-size: 18px;
+    font-family: Cinzel700;
+    margin: 162px 0;
+}
+.product-wrapper{
+    border: 1px solid #75464A;
+    width: 343px;
+    height: 532px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+.product-content{
+    padding: 21px 21px 0 21px;
+}
+.name-price{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 33px;
+    margin-top: 27px;
+}
+.name{
+    font-size: 16px;
+    font-family: Cinzel700;
+}
+.price{
+    font-size: 16px;
+    font-family: Cinzel400;
+}
+.add-border{
+    border: 1xp solid black;
+    background-color: #3F3232;
+    width: 159px;
+    height: 38px;
+    border-radius: 10px;
+    margin-left: 135px;
+}
+.add{
+    color: #FFFFFF;
+    font-size: 12px;
+    font-family: Cinzel700;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 11px 0;
+}
+.add:active{
+    color: black;
+}
+.view-border{
+    background-color: #3F3232;
+    width: 237px;
+    height: 63px;
+    border-radius: 10px;
+    margin: 92px;
+    margin-left: 879px;
+}
+.view-more{
+    font-size: 20px;
+    font-family: Cinzel700;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    padding: 18px 0;
+}
+.view-more:active{
+    color: black;
+}
+footer{
+    background-color: #F5EFEF;
+    height: 300px;
+}
+.footer-container{
+    padding: 62px 100px 0 100px;
+}
+.slogan{
+    font-family: Cinzel400;
+    font-size: 18px;
+    color: black;
+}
+.socials{
+    margin-top: 48px;
+}
+.social{
+    margin-right: 30px;
+}
+.email{
+    display: flex;
+}
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-two{
+    display: flex;
+}
+.footer-left{
+    margin-right: 147px;
+}
+.info{
+    margin-top: 10px;
+}
+.location{
+    margin-bottom: 36px;
+}
+.number{
+    margin-bottom: 36px;
+}
+.footer-left p{
+    margin-bottom: 36px;
+    font-family: Cinzel400;
+    font-size: 16px;
+    color: #75464A;
+}
+.location, .number, .email{
+    font-family: Cinzel400;
+    font-size: 16px;
+    color: #75464A;
+}
+.gallery-title{
+    font-size: 18px;
+    font-family: Cinzel700;
+    margin: 56px 0 104px 0;
+}
+.gallery{
+    margin-bottom: 495px;
+}
+.row-one, .row-two, .row-three{
+    display: flex;
+    justify-content: space-between;
+}
+.row-one, .row-two{
+    margin-bottom: 127px;
+}
+.row-one img:hover, .row-two img:hover, .row-three img:hover{
+    box-shadow: 0px 0px 20px 0px #00000040;
+}
+.about-title{
+    padding: 162px 0 125px 0;
+}
+.first-paragraph{
+    width: 704px;
+    height: 353px;
+    font-size: 18px;
+    font-family: Cinzel400;
+}
+.article-one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 248px;
+}
+.second-paragraph{
+    width: 679px;
+    height: 348px;
+    font-size: 18px;
+    font-family: Cinzel400;
+}
+.article-two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 410px;
+}
+.contact-container{
+    padding-left: 71px;
+    padding-right: 100px;
+}
+.contact-title{
+    font-size: 18px;
+    font-family: Cinzel700;
+    padding: 162px 0 0 0;
+    padding-left: 48px;
+}
+.message{
+    font-size: 20px;
+    font-family: Cinzel700;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.working-hours{
+    font-size: 18px;
+    font-family: Cinzel400;
+    width: 500px;
+    height: 70px;
+    text-align: right;
+    padding-left: 340px;
+}
+h5{
+    text-align: right;
+}
+.input-section{
+    margin-top: 133px;
+    margin-bottom: 322px;
+}
+.usernames{
+    display: flex;
+    justify-content: space-between;
+}
+h6{
+    font-size: 16px;
+    font-family: Cinzel400;
+    color: #3D3D3D;
+}
+.border-one{
+    border: 1px solid #75464A;
+    width: 525px;
+    height: 65px;
+    border-radius: 10px;
+}
+.border-two{
+    border: 1px solid #75464A;
+    width: 525px;
+    height: 65px;
+    border-radius: 10px;
+}
+.mails{
+    display: flex;
+    justify-content: space-between;
+}
+.border-three{
+    border: 1px solid #75464A;
+    width: 525px;
+    height: 51px;
+    border-radius: 10px;
+}
+.border-four{
+    border: 1px solid #75464A;
+    width: 525px;
+    height: 51px;
+    border-radius: 10px;
+}
+.map{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.border-five{
+    border: 1px solid #75464A;
+    width: 530px;
+    height: 400px;
+    border-radius: 10px;
+}
+.border-text{
+    font-size: 12px;
+    font-family: Cinzel400;
+    color: #3D3D3D;
+    margin-top: 38px;
+    margin-left: 32px;
+}
+iframe{
+    width: 575px;
+    height: 395px;
+    border-radius: 10px;
+}
+.border-six{
+    border: 1px solid #75464A;
+    border-radius: 10px;
+    width: 25px;
+    height: 25px;
+}
+.privacy{
+    display: flex;
+    align-items: center;
+    margin-top: 38px;
+}
+.accept-list{
+    display: flex;
+    list-style: none;
+}
+.accept{
+    list-style: none;
+}
+.accept-one{
+    margin-right: 6px;
+    font-size: 12px;
+    font-family: Cinzel400;
+    color: black;
+}
+.accept-two{
+    font-size: 12px;
+    font-family: Cinzel400;
+    margin-right: 6px;
+    color: #0057FF;
+}
+.accept-three{
+    color: #FF0000;
+}
+.send-border{
+    width: 224px;
+    height: 63px;
+    background-color: #3F3232;
+    border-radius: 10px;
+    margin-top: 85px;
+    margin-left: 900px;
+}
+.send-us{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: Cinzel700;
+}
+.faq-container{
+    padding: 0 174px 0 236px;
+}
+.faq-title{
+    font-size: 18px;
+    font-family: Cinzel700;
+    color: #D9D9D9;
+    margin-top: 171px;
+    margin-bottom: 71px;
+}
+.questions{
+    font-size: 25px;
+    font-family: OpenSans600;
+}
+.bottom-border{
+    border-bottom: 1px solid #75464A;
+    width: 700px;
+    margin: 21px 0 43px 0;
+}
+.answer-one{
+    font-size: 18px;
+    font-family: OpenSans600;
+    width: 1029px;
+    height: 58px;
+    margin-bottom: 144px;
+}
+.answer-two{
+    font-size: 18px;
+    font-family: OpenSans600;
+    width: 988px;
+    height: 116px;
+    margin-bottom: 144px;
+}
+.answer-three{
+    font-size: 18px;
+    font-family: OpenSans600;
+    margin-bottom: 144px;
+    width: 988px;
+    height: 232px;
+}
+.answer-four{
+    font-size: 18px;
+    font-family: OpenSans600;
+    margin-bottom: 144px;
+    width: 988px;
+    height: 464px;
+}
+.second{
+    margin-top: 20px;
+}
+.answer-five{
+    font-size: 18px;
+    font-family: OpenSans600;
+    margin-bottom: 144px;
+    width: 988px;
+    height: 116px;
+}
+.answer-six{
+    font-size: 18px;
+    font-family: OpenSans600;
+    margin-bottom: 256px;
+    width: 988px;
+    height: 232px;
+}
